@@ -1,0 +1,14 @@
+.chart {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.analytics-chart {
+  display: flex;
+  flex: 200px;
+  justify-content: center;
+  align-items: center;
+}

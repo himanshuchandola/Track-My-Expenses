@@ -1,0 +1,31 @@
+.input-bill-amount {
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+  margin: 20px 0px;
+  font-weight: bolder;
+}
+
+.input-bill-amount-field {
+  padding: 8px;
+  margin: 0px 8px;
+  font-size: large;
+  border-radius: 6px;
+  border: 1px solid slategrey;
+}
+
+.bills-information {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+.color {
+  height: 20px;
+  width: 20px;
+  background: #99e3fd;
+  margin: 2px 12px;
+}
+
+.highlighted {
+  background: #99e3fd;
+}

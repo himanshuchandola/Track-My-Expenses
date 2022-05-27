@@ -1,0 +1,148 @@
+.modal {
+  z-index: 1;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  width: 70%;
+  height: 100%;
+}
+
+.modal-details {
+  padding: 8px 12px;
+}
+.modal-details-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.back-button {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cancel-button {
+  color: red;
+}
+
+.back-button i {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: black;
+}
+.modal-info-card {
+  background: white;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  width: 60%;
+  min-height: 40vh;
+}
+.modal-name {
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid #00d09c;
+  padding-bottom: 12px;
+  width: max-content;
+}
+.form-item {
+  margin: 20px 0px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid lightgray;
+  min-height: 30px;
+}
+
+.form-item label {
+  background-color: lightgrey;
+  padding: 6px 12px;
+  border-radius: 0px 6px 6px 0px;
+  min-height: 30px;
+  margin-right: 24px;
+}
+.form-item input {
+  font-size: 16px;
+  border: none;
+  width: 70%;
+  outline: none;
+  min-height: 40px;
+}
+.form-add-button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.form-add-button div {
+  display: flex;
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form-add-button div i {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+.add-btn {
+  cursor: pointer;
+}
+
+.cancel-btn {
+  padding: 12px 16px;
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .modal-info-card {
+    width: 80%;
+  }
+  .modal-name {
+    font-size: 18px;
+  }
+  .form-item {
+    width: 100%;
+  }
+  .form-item input {
+    width: 70%;
+  }
+  .amount-input {
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .modal-info-card {
+    width: 90%;
+  }
+  .modal-name {
+    font-size: 16px;
+  }
+}

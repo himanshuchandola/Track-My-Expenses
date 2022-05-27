@@ -1,0 +1,76 @@
+.topic-dropdown {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 6px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.topic-dropdown .current-topic {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.topic-dropdown .current-topic .sub-topic {
+  color: #00baff;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.topic-dropdown .current-topic .main-topic {
+  color: #999;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: default;
+}
+.topic-dropdown .current-topic .down-arrow {
+  color: #00baff;
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  cursor: pointer;
+}
+.topic-dropdown .topic-list {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  padding: 12px 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 4px;
+  position: absolute;
+  z-index: 99;
+  top: 54px;
+  box-shadow: 0 4px 8px 0 #ebeef2;
+}
+.topic-dropdown .topic-list .topic-list-item {
+  width: 100%;
+}
+.topic-dropdown .topic-list .topic-list-item .topic-title {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 12px 0;
+}
+.topic-dropdown .topic-list .topic-list-item .sub-topic-list {
+  color: #333;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.topic-dropdown .topic-list .topic-list-item .sub-topic-list .sub-topic-item {
+  padding: 8px 0;
+}
+
+@media only screen and (max-width: 780px) {
+  .topic-dropdown .current-topic .main-topic {
+    font-size: 12px;
+  }
+}
